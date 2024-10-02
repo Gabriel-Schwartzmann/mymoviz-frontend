@@ -41,7 +41,7 @@ function Home() {
       .then(apiData => {
         console.log(apiData);
         setMoviesData(apiData.movies);
-        
+         
       });
   }, []);
  
